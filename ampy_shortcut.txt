@@ -1,0 +1,17 @@
+ampy --port COM7 ls
+
+ampy --port COM7 cat main.py
+
+ampy --port COM7 put main.py
+ampy --port COM7 put main.py main.py
+
+ampy --port COM7 get main.py
+ampy --port COM7 get main.py main.py
+
+ampy --port COM7 rm main.py
+
+ampy --port COM7 mkdir mydir
+
+ampy --port COM7 rmdir mydir
+
+ampy --port COM7 reset
